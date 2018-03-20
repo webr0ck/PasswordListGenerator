@@ -1,0 +1,7 @@
+*.pyc
+/.vscode
+*/__pycache__/*
+/.wish.txt
+*.ignore
+/.idea
+idea.md
