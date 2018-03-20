@@ -2,7 +2,7 @@
 
 ## Work algorithm:
 Uses a dictionary of words (by default - list.txt) and a list of delimiter("delimiters" in main.cfg)
-Combines these two lists, in passwords from 2 to max_words_on_pass (param in main.cfg) words
+Combines these two lists passwords and delimeters. In passwords uses from 2 to max_words_on_pass (param in main.cfg) words
 
 ## How to use:
 Type: ```python main.py```
