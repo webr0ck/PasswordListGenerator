@@ -149,12 +149,12 @@ def main():
         for delimiters_list in delimiters_comb:
             i=0
             
-            
+
             for list_ in result:
                 j=0
                 k=0
                 my_string=''
-                while (j<max_words_on_pass):
+                while (j<int(max_words_on_pass)):
                     
                     if i!=0 and j!=i:
                         my_string=my_string+list_[0]
@@ -181,14 +181,13 @@ def main():
         for list_ in result:
             i=0
             
-            
             for delimiters_list in delimiters_comb:
                 j=0
                 k=0
                 my_string=''
                 print list_
 
-                while (j<max_words_on_pass):
+                while (j<int(max_words_on_pass)):
                     
                     if i!=0 and j==0:
                         my_string=my_string+list_[0]
